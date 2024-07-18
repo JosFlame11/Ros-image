@@ -3,8 +3,6 @@ FROM ros:noetic
 RUN sudo apt-get update &&\
     sudo apt-get install nano -y
 
-COPY ./robot_ws /robot_ws
-
 RUN sudo apt-get update &&\
     sudo apt install git -y
 
